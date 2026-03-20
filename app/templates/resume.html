@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>{{ name }} - Resume</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+            line-height: 1.5;
+            color: #333;
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 5px;
+            color: #111;
+        }
+        .sub-title {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-top: 25px;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            border-bottom: 2px solid #444;
+            margin-bottom: 10px;
+            padding-bottom: 2px;
+        }
+        .item-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .company-duration {
+            font-size: 13px;
+            color: #777;
+        }
+        ul {
+            margin-top: 5px;
+        }
+        li {
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <h1>{{ name }}</h1>
+    <div class="sub-title">
+        {% if phone %}<a href="tel:{{ phone }}">{{ phone }}</a>{% endif %}
+        {% if phone and email %} | {% endif %}
+        {% if email %}<a href="mailto:{{ email }}">{{ email }}</a>{% endif %}<br>
+        {% if linkedin %}<a href="{{ linkedin }}" target="_blank">LinkedIn</a>{% endif %}
+        {% if linkedin and github %} | {% endif %}
+        {% if github %}<a href="{{ github }}" target="_blank">GitHub</a>{% endif %}
+    </div>
+
+    <!-- Summary -->
+    <div class="section">
+        <div class="section-title">Summary</div>
+        <p>{{ summary }}</p>
+    </div>
+
+    <!-- Skills -->
+    <div class="section">
+        <div class="section-title">Skills</div>
+        {% for skill in skills %}
+            <p><strong>{{ skill.name }}:</strong> {{ skill.value }}</p>
+        {% endfor %}
+    </div>
+
+    <!-- Experience -->
+    <div class="section">
+        <div class="section-title">Experience</div>
+
+        {% for job in experience %}
+            <div class="item-title">{{ job.company }}</div>
+            <div class="company-duration">{{ job.role }} — {{ job.duration }}</div>
+
+            <ul>
+                {% for point in job.description %}
+                    <li>{{ point }}</li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </div>
+
+    <!-- Projects -->
+    <div class="section">
+        <div class="section-title">Projects</div>
+
+        {% for project in projects %}
+            <div class="item-title">{{ project.name }}</div>
+            <div class="company-duration">{{ project.duration }}</div>
+            <p><strong>Tech Stack:</strong> {{ project.tech }}</p>
+
+            <ul>
+                {% for point in project.description %}
+                    <li>{{ point }}</li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </div>
+
+    <!-- Education -->
+    <div class="section">
+        <div class="section-title">Education</div>
+        <p>{{ education }}</p>
+    </div>
+
+</body>
+</html>

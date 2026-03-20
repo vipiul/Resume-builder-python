@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Python virtual environments
+venv/
+ENV/
+
+# PDF and other generated files
+resume.pdf
+
+# Docker
+*.log
+
+# Pytest cache
+.cache/
+
+# Beanie/MongoDB
+*.db
+
+# Misc
+*.pkg
+
+# Ignore requirements.txt backup
+requirement.txt
+
+# Ignore test outputs
+app/tests/
+
+# Ignore local configs
+*.local
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+
+# Ignore pip
+pip-wheel-metadata/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore compiled files
+*.pyo
+*.pyd
+
+# Ignore lock files
+Pipfile.lock
+poetry.lock
+
+# Ignore docker-compose override
+*docker-compose.override.yml
