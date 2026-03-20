@@ -1,0 +1,121 @@
+{
+  "name": "Vipul Anand",
+  "email": "vipulanand686@gmail.com",
+  "phone": "7737811633",
+  "linkedin": "linkedin.com/in/vipul-anand-803404182",
+  "github": "github.com/vipiul",
+
+  "summary": "Senior Backend Engineer with 6+ years of experience building scalable, high-performance backend systems using Node.js and TypeScript. Strong expertise in designing REST/GraphQL APIs, microservices architecture, and distributed systems. Experienced in AWS cloud, CI/CD pipelines, database optimization, and asynchronous processing. Proven ability to deliver reliable, secure, and maintainable backend solutions in high-volume environments.",
+
+  "skills": [
+    {
+      "name": "Backend",
+      "value": "Node.js, TypeScript, NestJS, Express.js, REST APIs, GraphQL, Microservices Architecture, JWT, OAuth2"
+    },
+    {
+      "name": "Database",
+      "value": "PostgreSQL, MySQL, MongoDB, Schema Design, Query Optimization, ORM (Sequelize, Mongoose)"
+    },
+    {
+      "name": "Caching & Messaging",
+      "value": "Redis, BullMQ, Event-Driven Architecture, Asynchronous Processing"
+    },
+    {
+      "name": "Search & Performance",
+      "value": "OpenSearch (Basic), Indexing, API Optimization, Profiling, High-Throughput Systems"
+    },
+    {
+      "name": "Cloud & DevOps",
+      "value": "AWS (EC2, S3, Lambda, API Gateway, RDS), Docker, CI/CD (GitHub Actions, Jenkins)"
+    },
+    {
+      "name": "Tools",
+      "value": "Git, Postman, VS Code, JIRA, Agile/Scrum"
+    }
+  ],
+
+  "experience": [
+    {
+      "company": "Magic Edtech",
+      "role": "Senior Software Engineer",
+      "duration": "Jun 2025 – Present",
+      "description": [
+        "Developing scalable backend services using Node.js and TypeScript.",
+        "Designing REST APIs and handling secure data exchange between services.",
+        "Implementing event-driven architecture using Kafka and asynchronous workflows.",
+        "Optimizing database queries and improving API performance for high-load systems.",
+        "Deploying services on AWS using Docker and CI/CD pipelines.",
+        "Debugging production issues and performing root-cause analysis across distributed systems."
+      ]
+    },
+    {
+      "company": "Mobile Programming LLC",
+      "role": "Senior Software Engineer",
+      "duration": "Aug 2024 – May 2025",
+      "description": [
+        "Built scalable backend APIs using Node.js and Express.js.",
+        "Implemented real-time systems using WebSockets and event-based communication.",
+        "Optimized backend performance for large-scale enterprise applications.",
+        "Integrated third-party APIs and managed secure authentication flows.",
+        "Collaborated on system design and backend architecture decisions."
+      ]
+    },
+    {
+      "company": "SN Digitech Pvt. Ltd",
+      "role": "Senior Software Engineer",
+      "duration": "Jan 2023 – Aug 2024",
+      "description": [
+        "Developed backend services using Node.js, Express.js, and TypeScript.",
+        "Designed and implemented REST and GraphQL APIs.",
+        "Worked on microservices-based architecture for scalable applications.",
+        "Implemented JWT-based authentication and role-based access control.",
+        "Deployed backend systems on AWS and maintained CI/CD pipelines."
+      ]
+    },
+    {
+      "company": "Webinfo Software Pvt. Ltd",
+      "role": "Software Engineer",
+      "duration": "Aug 2021 – Aug 2022",
+      "description": [
+        "Developed backend APIs and integrated frontend applications.",
+        "Worked with MySQL databases and optimized queries.",
+        "Maintained and enhanced existing backend modules."
+      ]
+    },
+    {
+      "company": "Real Imaginations Pvt. Ltd",
+      "role": "Software Engineer",
+      "duration": "Mar 2020 – Jul 2021",
+      "description": [
+        "Developed backend logic using Node.js and PHP.",
+        "Built REST APIs and worked with MySQL databases.",
+        "Supported full-stack development with focus on backend systems."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Scalable Financial Backend System",
+      "duration": "2023 – 2024",
+      "tech": "Node.js, TypeScript, AWS, Redis, WebSockets",
+      "description": [
+        "Built high-performance backend APIs for financial transactions.",
+        "Implemented real-time processing using WebSockets and async queues.",
+        "Optimized API performance for handling concurrent users."
+      ]
+    },
+    {
+      "name": "ERP Backend Platform",
+      "duration": "2024 – 2025",
+      "tech": "Node.js, Express.js, MySQL, REST APIs",
+      "description": [
+        "Developed backend modules for enterprise ERP system.",
+        "Designed database schema and optimized queries.",
+        "Implemented secure role-based access control."
+      ]
+    }
+  ],
+
+  "education": "Bachelor’s Degree (2019)"
+}
